@@ -1,0 +1,1 @@
+<h1 style="text-align: center">Метод не поддерживается!</h1>

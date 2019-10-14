@@ -1,0 +1,12 @@
+database_host: 'localhost'
+database_name: 'news_feed'
+database_port: '3306'
+database_user: 'root'
+database_password: 'root'
+news:
+    per_page: 10
+    size:
+        title_min: 3
+        body_min: 10
+        title_max: 150
+        body_max: 2000
