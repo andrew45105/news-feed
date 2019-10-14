@@ -17,7 +17,6 @@ class NewsController extends BaseController
     {
         $perPage    = intval($this->getConfigParam('news')['per_page']);
         $offset     = ($page - 1) * $perPage;
-        $this->getDBService()->getNews($perPage, $offset);
         return $this->getJson([
             'news' => $this->getDBService()->getNews($perPage, $offset),
         ]);
